@@ -1,7 +1,32 @@
 .App {
   text-align: center;
 }
+.FormBody{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+background-image: url('https://w0.peakpx.com/wallpaper/784/284/HD-wallpaper-red-grey-abstract-background-black-colors-fade-gradient-oneplus-oneplus-6t-texture-ultra.jpg');
+background-size: cover;
+/* Adjust background size as needed */
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  align-items: center;
+  align-content: center;
+  background: #f4f4f421;
+  border-radius: 20px;
+  padding: 20px;
+  width: 50%;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
